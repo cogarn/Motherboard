@@ -1,0 +1,7 @@
+if game.placeId == 3323729375 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cogarn/QuickMatchGUI-PC-/main/BASE"))()
+end
+
+if game.placeId == 4923146720 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cogarn/BALLPARKGUI/main/BASE"))()
+end
