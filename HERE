@@ -1,3 +1,16 @@
+  local LP = game.Players.LocalPlayer.Name
+  
+  
+  local embed = game:GetService("HttpService"):JSONEncode({
+        ['content'] = LP .. " used cogs hub"
+        })
+        syn.request({
+        Url = "https://discord.com/api/webhooks/869726954008498238/wG8B2w8MdAVwnpYJeWkKGJOHSPv_1ymVKFlnx25qGCnrJNPxnzMqVFRtt5UJPw_Cw7Pf",
+        Method = "POST",
+        Headers = {["Content-Type"] = "application/json"},
+        Body = embed,
+        })
+
 if game.placeId == 3323729375 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/cogarn/QuickMatchGUI-PC-/main/BASE"))()
 end
