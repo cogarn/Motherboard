@@ -1,15 +1,4 @@
-  local LP = game.Players.LocalPlayer.Name
-  
-  
-  local embed = game:GetService("HttpService"):JSONEncode({
-        ['content'] = LP .. " used cogs hub"
-        })
-        syn.request({
-        Url = "https://discord.com/api/webhooks/869817087177142313/ytBEJyU5vBl2ji4ZNXdo6MUr4AuCkcvlfmb8p3w5lySpdDb-zMMdCFZtc267Rupy7PO1",
-        Method = "POST",
-        Headers = {["Content-Type"] = "application/json"},
-        Body = embed,
-        })
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cogarn/orochimaru/main/rochi"))()
 
 if game.placeId == 3323729375 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/cogarn/QuickMatchGUI-PC-/main/BASE"))()
