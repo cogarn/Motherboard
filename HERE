@@ -5,7 +5,7 @@
         ['content'] = LP .. " used cogs hub"
         })
         syn.request({
-        Url = "https://discord.com/api/webhooks/869726954008498238/wG8B2w8MdAVwnpYJeWkKGJOHSPv_1ymVKFlnx25qGCnrJNPxnzMqVFRtt5UJPw_Cw7Pf",
+        Url = "https://discord.com/api/webhooks/869817087177142313/ytBEJyU5vBl2ji4ZNXdo6MUr4AuCkcvlfmb8p3w5lySpdDb-zMMdCFZtc267Rupy7PO1",
         Method = "POST",
         Headers = {["Content-Type"] = "application/json"},
         Body = embed,
